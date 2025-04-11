@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "fbik"
   text: "Random name generator"
-  tagline: My great project tagline
+  tagline: 'Random name generator, whose style is like "FBIK."'
   actions:
     - theme: brand
       text: Start
@@ -15,7 +15,7 @@ hero:
       link: /examples
 
 features:
-  - title: Typescript support
+  - title: TypeScript support
     details: This module is typescript-based 
   - title: Using JSR
     details: The JavaScript Registry (JSR) is a modern package registry for JavaScript and TypeScript.
