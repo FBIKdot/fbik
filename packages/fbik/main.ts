@@ -1,5 +1,12 @@
 /**
  * This module contains generator
+ * 
+ * @example 
+ * ```ts
+ * import generator from "@fbik/fbik";
+ * console.log(generator());
+ * ```
+ * 
  * @module
  */
 
@@ -14,11 +21,6 @@ interface GenerateConfig {
  * Random name generator, whose style is like `FBIK.`
  * @param {GenerateConfig} config config
  * @return {string} result name
- * @example 
- * ```ts
- * import generator from "@fbik/fbik";
- * console.log(generator());
- * ```
  */
 function generator({
   length = 4,
