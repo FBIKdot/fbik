@@ -5,6 +5,11 @@ interface GenerateConfig {
   randomFunction?: (max: number) => number;
 }
 
+/**
+ * Random name generator, whose style is like `FBIK.`
+ * @param {GenerateConfig} config config
+ * @return {string} result name
+ */
 function generator({
   length = 4,
   dist = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
