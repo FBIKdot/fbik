@@ -11,7 +11,7 @@ hero:
       text: Start
       link: /start
     - theme: alt
-      text: API Examples
+      text: Examples
       link: /examples
 
 features:
