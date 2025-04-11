@@ -1,3 +1,8 @@
+/**
+ * This module contains generator
+ * @module
+ */
+
 interface GenerateConfig {
   length?: number;
   dist?: string | string[];
@@ -9,6 +14,11 @@ interface GenerateConfig {
  * Random name generator, whose style is like `FBIK.`
  * @param {GenerateConfig} config config
  * @return {string} result name
+ * @example 
+ * ```ts
+ * import generator from "@fbik/fbik";
+ * console.log(generator());
+ * ```
  */
 function generator({
   length = 4,
@@ -23,6 +33,10 @@ function generator({
   }
   return result.join('') + end;
 }
+
+export { generator }
+export default generator
+
 // Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
 if (import.meta.main) {
   console.log(`Hi! How do you think about the name "${generator()}"?`);
